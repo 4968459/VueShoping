@@ -24,7 +24,7 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 })
-// 挂载路由守卫
+// 挂载vue路由守卫
 router.beforeEach((to, from, next) => {
   // to将要访问的路径
   // from代表从哪个路径跳转而来
