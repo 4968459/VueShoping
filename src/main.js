@@ -11,6 +11,12 @@ import axios from 'axios'
 Vue.prototype.$http = axios
 // 配置请求的基准URL地址
 axios.defaults.baseURL = 'https://www.liulongbin.top:8888/api/private/v1/'
+axios.interceptors.request.use(config => {
+  config.headers.Authorization = window.sessionStorage.getItem('token') //设置响应头
+  return config
+}, err => {
+  console.log(err)
+})
 Vue.config.productionTip = false
 Vue.use(ElementUI)
 
