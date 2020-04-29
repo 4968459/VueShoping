@@ -8,6 +8,7 @@ import Rights from '../components/power/Rights.vue'
 import Roles from '../components/power/Roles.vue'
 import Cate from '../components/goods/Cate.vue'
 import TreeTable from 'vue-table-with-tree-grid'
+import Params from '../components/goods/Params.vue'
 
 Vue.component('tree-table', TreeTable)
 Vue.use(VueRouter)
@@ -39,6 +40,9 @@ const routes = [{
     }, {
       path: '/categories',
       component: Cate
+    }, {
+      path: '/params',
+      component: Params
     }]
   }
 ]
