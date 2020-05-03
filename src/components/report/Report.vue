@@ -60,6 +60,8 @@ export default {
     console.log(result);
     myChart.setOption(result);
   },
+  created() {
+  },
   methods: {}
 };
 </script>
