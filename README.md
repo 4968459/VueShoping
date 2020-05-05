@@ -1,5 +1,6 @@
 # shop
-
+# 在线地址
+http://fuxiangji.gitee.io/vueshopping
 ## Project setup
 ```
 npm install
@@ -18,4 +19,3 @@ npm run build
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-# 我是符祥吉
